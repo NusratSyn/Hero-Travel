@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.PageWidth{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.displayFlex{
+    display: flex;
+}
+.FlexDirection{
+    flex-direction: column;
+}
+.Header>.navbar>ul>li>a{
+    text-decoration: none;
+    color: #595A5E;
+    font-size: 19px;
+}
+.Header>.navbar>ul>li>.ColorChange{
+    color: #FF5300;
+    font-weight: bold;
+}
+.Header>.navbar>ul{
+    display: flex;
+    gap: 20px;
+}
+.Header>.navbar>ul>li {
+    list-style: none;
+}
+.Header{
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 45px 20px 45px;
+}
+.logodiv{
+    gap: 20px;
+    align-items: center;
+}
+.hero{
+    font-size: 40px;
+}
+.BackgroundImg{
+    background-image: linear-gradient(rgb(56 53 53 / 68%), rgb(169 160 160 / 41%)),url(Images/Group13.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100% 501px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin: 20px 45px 20px 45px;
+    padding: 20PX;
+    border-radius: 12px;
+}
+.ToWrapContent{
+    gap: 20px;
+}
+.ExploreYourTravel{
+    font-size: 70px;
+    color: white;
+    line-height: 6rem;
+    padding: 0 20px 30px;
+}
+.ExploreYourTravelPara{
+    color: white;
+    font-size: 20px;
+    max-width: 790px;
+    margin: 0 auto;
+    line-height: 2.5rem;
+    font-size: 18px;
+}
+.ToWrapInputContent{
+    justify-content: center;
+    gap: 18px;
+    background: #f6efef5c;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 97%;
+}
+.ToWrapInputContent>input[type=text]{
+    border-radius: 5px;
+}
+.selectbox{
+    width: 178px;
+    padding: 10px;
+    border: none;
+    color: #595A5E;
+    border-radius: 5px;
+}
+.Findbtn{
+    background-image: url(Images/Search.png) ! important;
+    background-repeat: no-repeat ! important;
+    background-size: 26px 28px ! important;
+    background-position: 12px 6px ! important;
+}
+.btn{
+    font-weight: bold;
+    color: white;
+    padding: 13px;
+    width: 147px;
+    background: #FF5500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=text]{
+    width: 158px;
+    padding: 10px;
+    border: none;   
+}
+.ToWrapPopularTourDiv{
+    margin: 40px 45px 20px 45px;
+    padding: 9px;
+    gap: 52px;
+}
+.PopularTour{
+    line-height: 6rem;
+    font-size: 40px;
+}
+.PopularTourPara{
+    line-height: 1.75rem;
+    margin: 0px 10px 20px 0px;
+    color: #595A5E;
+    font-size: 18px;
+}
+.ToWrapPopularTourDiv>.PopularTourContent>ul{
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: #595A5E;
+}
+.PopularTourImg{
+    margin: 30px 0px 10px 20px;
+}
+.readmore{
+    font-size: 18px;
+}
+.Country{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.Country1{
+    background-image: url(Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Country2{
+    background-image: url(Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Country3{
+    background-image: url(Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 335px;
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Country4{
+    background-image: url(Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Country5{
+    background-image: url(Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: 100% 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Country6{
+    background-image: url(Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Country7{
+    background-image: url(Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ChooseYourDestinationContent{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.ChooseYourDestination{
+    font-size: 40px;
+    line-height: 5rem;
+}
+.ChooseYourDestinationPara{
+    max-width: 616px;
+    margin: 0 auto;
+    line-height: 2rem;
+    color: #595A5E;
+    font-size: 18px;
+}
+.ChooseYourDestinationImg{
+    margin-top: 30px;
+}
+.FirstTwoDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 45px 20px 45px;
+    gap: 20px;
+}
+.SecondThreeDiv{
+    display: grid;
+    grid-template-columns: 1fr 470px 300px;
+    gap: 18px;
+    margin: 20px 45px 20px 45px;
+}
+.ThirdTwoDiv{
+    display: grid;
+    grid-template-columns: 487px 1fr;
+    margin: 20px 45px 20px 45px;
+    gap: 20px;
+}
+.WhyChooseUsdiv{
+    text-align: center;
+    line-height: 2rem;
+    margin: 20px;
+    padding: 20px;
+}
+.WhyChooseUs{
+    line-height: 3.5rem;
+    font-size: 40px;
+}
+.WhyChooseUsPara{
+    max-width: 651px;
+    margin: 0 auto;
+    color: #595A5E;
+    font-size: 18px;
+}
+.ToWrapWhyChooseUsContent{
+    margin: 30px 45px 20px 45px;
+    gap: 20px;
+    align-items: center;
+}
+.Hotels{
+    background: #FFFCF7;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px gray;
+    padding: 20px;
+}
+.WhyChooseusTitle{
+    padding: 10px;
+    font-size: 20px;
+}
+.WhyChooseUspara2{
+    padding: 10px;
+    line-height: 1.5rem;
+    color: #595A5E;
+}
+.Sevices{
+    height: 262px;
+    background: #F4FEFF;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px gray;
+    padding: 20px;
+}
+.BestPractice{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #FEF5F6;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px gray;
+    width: 500px;
+    height: 250px;
+}
+.DealsandDiscountDiv{
+    text-align: center;
+    margin-top: 33px;
+    padding-top: 20px;
+    line-height: 4rem;
+    padding-bottom: 30px;
+}
+.DealsandDiscountPara{
+    max-width: 651px;
+    margin: 0 auto;
+    line-height: 2.5rem;
+    color: #595A5E;
+    font-size: 18px;
+}
+.DealsandDiscount{
+    font-size: 40px;
+}
+.BackgroundImg1{
+    background-image: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    margin: 20px 45px 30px 45px;
+    background-size: 100% 550px;
+    height: 550px;
+    align-items: center;
+    position: relative;
+}
+.BackgroundImg2{
+    background-image: url(Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    margin: 20px 45px 30px 45px;
+    background-size: 100% 550px;
+    height: 550px;
+    align-items: center;
+    position: relative;
+}
+.ToWrapMaindiv{
+    gap: 20px;
+}
+.ToWrapIconandText{
+    gap: 17px;
+    align-items: center;
+}
+.ToWrapIconandText>img{
+    width: 32px;
+    height: 32px;
+}
+.ToWrapIconandText>p{
+    color: #595A5E;
+}
+.TourToSantoriniH1{
+    line-height: 2rem;
+    margin-top: 20px;
+}
+.TourToSantoriniPara{
+    max-width: 383px;
+    line-height: 2rem;
+    color: #595A5E;
+}
+.TourToSantorini{
+    background: #f7f7f7e0;
+    padding: 40px;
+    position: absolute;
+    right: 40px;
+    border-radius: 29px;
+    border: 2px solid white;
+    width: 490px;
+}
+.TourToSantorini1{
+    background: #f7f7f7e0;
+    padding: 40px;
+    position: absolute;
+    left: 40px;
+    border-radius: 29px;
+    border: 2px solid white;
+    width: 490px;
+}
+.Price{
+    color: #FF5500;
+    line-height: 2rem;
+    margin: 8px;
+}
+.SeeAllPackageBtnDiv{
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+}
+.ToWrapSimplePerfectSection{
+    margin: 40px 45px 20px 45px;
+    gap: 20px;
+}
+.SimplePerfectPlaceDiv{
+    line-height: 2rem;
+}
+.SimplePerfectPlace{
+    font-size: 40px;
+    line-height: 4rem;
+    max-width: 535px;
+}
+.SimplePerfectPlacePara{
+    color: #595A5E;
+    font-size: 18px;
+}
+.SimplePerfectPlaceDiv>ul{
+    padding: 20px;
+}
+.SimplePerfectPlaceDiv>ul>li{
+    font-weight: bold;
+}
+.video>img{
+    width: 595px;
+}
+.SeeMoreBtn{
+    padding: 15px! important;
+    width: 151px! important;
+    font-size: 20px! important;
+}
+.NewsLetterSection{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.NewsLetterImgDiv{
+    background-image: url(Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 510px;
+    border-radius: 30px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+.TravelPara{
+    font-size: 20px;
+}
+.ToGiveOrangeBG{
+    background: #FF5500;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 225px;
+    height: 70px;
+    justify-content: center;
+    padding: 20px;
+    line-height: 2rem;
+    transform: rotateZ(343deg);
+    position: absolute;
+    right: 20px;
+    bottom: 42px;
+    
+}
+.ToWrapNewsLetterDiv{
+    margin: 20px 45px 80px 45px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.NewsLetterDiv{
+    width: 453px;
+    padding: 20px;
+    border: 2px solid #FF5500;
+    border-radius: 30px;
+}
+.NewsLetter{
+    padding: 20px;
+    font-size: 30px;
+}
+.NewsLetterPara{
+    padding: 20px;
+    max-width: 332px;
+    line-height: 2rem;
+    color: #595A5E;
+}
+.underline{
+    width: 331px;
+    padding: 9px 20px 0px 20px;
+}
+.ToWrapNewsLetterInput{
+    padding: 20px;
+    width: 400px;
+    gap: 20px;
+}
+.ToWrapNewsLetterInput>input[type=text] {
+    width: 300px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 6px;
+    background: #F3F3F3;
+    height: 30px;
+    font-size: 18px;
+}
+.SubscribeBtn{
+    width: 359px! important;
+    padding: 15px! important;
+    font-size: 18px! important;
+    border-radius: 9px! important;
+}
+.FooterSection{
+    background: #F3F3F3;
+    height: 500px;
+}
+.FooterLogoDiv{
+    margin-top: 30px;
+    padding-top: 40px;
+}
+.ToWrapFooterDiv{
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 20px;
+}
+.FooterParaDiv{
+    text-align: center;
+    max-width: 844px;
+    line-height: 2rem;
+    color: #595A5E;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.ToWrapFooterIcon{
+    gap: 17px;
+}
+.ToWrapFooterIcon>a>img{
+    width: 33px;
+    height: 36px;
+}
+.FooterUnderlineDiv{
+    width: 63%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.CopyRightDiv{
+    color: #595A5E;
+    font-size: 18px;
+}
